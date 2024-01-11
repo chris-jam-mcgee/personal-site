@@ -1,0 +1,45 @@
+---
+import { marked } from 'marked';
+import Button from './Button.astro';
+import siteConfig from '../data/site-config';
+
+import { ArrowDownToLine } from 'lucide-react';
+
+const hero = siteConfig.hero;
+---
+
+{
+    (hero?.title || hero?.image?.src || hero?.text || (hero?.actions && hero.actions.length > 0)) && (
+        <section class="w-full flex flex-col items-center gap-8 mb-16 sm:mb-24">
+            {hero.title && (
+                <a href="/">
+                    <h1 class="leading-tight font-serif font-medium text-4xl md:text-3xl sm:leading-tight text-center">{hero.title}</h1>
+                </a>
+            )}
+            {hero.image?.src && (
+                <figure class="w-4/5 flex flex-col items-center">
+                    <img class="rounded-full border-2 border-main" src={hero.image.src} loading="lazy" decoding="async" alt={hero.image.alt || ''} />
+                    {hero.image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{hero.image.caption}</figcaption>}
+                </figure>
+            )}
+            {hero.text && <div class="max-w-none prose prose-dante sm:prose-lg max-w-prose" set:html={marked.parse(hero.text)} />}
+
+            <a
+                href={hero.resume}
+                download
+                class="inline-block flex flex-row items-center hover:underline border border-muted rounded-lg px-4 py-2 bg-muted hover:bg-accent active:bg-violet-700"
+            >
+                <span>Download my resume</span>
+                <ArrowDownToLine />
+            </a>
+
+            {hero.actions && hero.actions.length > 0 && (
+                <div class="flex flex-wrap gap-4">
+                    {hero.actions.map((action) => (
+                        <Button href={action.href}>{action.text}</Button>
+                    ))}
+                </div>
+            )}
+        </section>
+    )
+}

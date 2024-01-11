@@ -1,0 +1,44 @@
+---
+import { type CollectionEntry } from 'astro:content';
+import ArrowRight from '../icons/ArrowRight.astro';
+
+type Props = { project: CollectionEntry<'projects'>; class?: string; headingLevel?: 'h2' | 'h3' };
+
+const { project, class: className, headingLevel = 'h2' } = Astro.props;
+const { title, description, duration, badges } = project.data;
+const TitleTag = headingLevel;
+---
+
+<a
+    class:list={['flex flex-row justify-center items-start gap-8 group border border-muted rounded-lg bg-muted hover:bg-accent', className]}
+    href={`/experience/${project.id}/`}
+>
+    <div class="grow gap-4 flex flex-col items-start p-8 max-w-prose">
+        <div>
+            <TitleTag
+                class="text-2xl leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-2xl text-wrap"
+            >
+                {title}
+            </TitleTag>
+
+            <div class="flex flex-row justify-between">
+                <span class="font-light italic">{duration}</span>
+                <div class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center sm:shrink-0">
+                    Learn More <ArrowRight class="fill-current w-4 h-4" />
+                </div>
+            </div>
+            {
+                description && (
+                    <div class="hidden md:block mt-1 text-sm leading-normal">
+                        {description.match(/[^.!?]+[.!?]/g)?.map((sentence) => (
+                            <p class="mb-2">{sentence.trim()}</p>
+                        ))}
+                    </div>
+                )
+            }
+        </div>
+        <div class="hidden md:flex flex flex-wrap gap-4 items-start">
+            {(badges ?? ['empty']).map((badge) => <div class="rounded-full border-2 border-main px-4 py-2 font-semibold"> {badge}</div>)}
+        </div>
+    </div>
+</a>
