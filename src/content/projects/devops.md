@@ -4,15 +4,16 @@ description: Automated feature deployments for AWS stacks to unblock QA and UX d
 
 publishDate: 'Jun 01 2021'
 isFeatured: true
+badges: ['AWS', 'Python', 'CircleCI']
 seo:
   image:
-    src: '/project-6.jpg'
+    src: '/dust_shield_alone_logo_r.png'
 ---
 
-![Project preview](/project-6.jpg)
+![Project preview](/dust_shield_alone_logo_r.png)
 
-**Project Overview:**
-FitQuest is an augmented reality (AR) fitness adventure game that revolutionizes traditional workout routines by combining physical exercise with immersive gameplay. This web application encourages users to embark on thrilling adventures, complete challenges, and achieve fitness goals in an engaging virtual environment.
+**Overview:**
+[DUST Identity](https://www.dustidentity.com) is a unique supply chain security company. The company offers DUST, or Diamond Unclonable Security Tags, physical markings contructed from diamond dust suspended in a variety of high performance materials. These tags can be used to link a physical object to its digital records.
 
 ## Objectives
 

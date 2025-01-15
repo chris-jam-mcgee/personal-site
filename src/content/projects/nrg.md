@@ -4,17 +4,16 @@ description: Managed CI/CD pipeline across AWS and Azure clouds. Authored infras
 
 publishDate: 'Sep 01 2019'
 isFeatured: true
+badges: ['Python', 'Django', 'Jenkins', 'AWS', 'Ansible']
 seo:
   image:
-    src: '/project-5.jpg'
+    src: '/nrg.png'
 ---
 
-![Project preview](/project-5.jpg)
+![Project preview](/nrg.png)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
-
-**Project Overview:**
-PixelPerfect Art Gallery is an innovative online platform that transcends traditional art exhibition spaces. This web application is dedicated to showcasing and celebrating pixel art in the form of Non-Fungible Tokens (NFTs), providing artists with a digital canvas to display their unique creations while ensuring secure ownership through blockchain technology.
+**Overview:**
+[NRG](https://www.nrg.com) is an American energy company.
 
 ## Objectives
 

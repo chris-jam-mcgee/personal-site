@@ -4,6 +4,7 @@ description: Supported the structural and thermal efforts for the Solar Probe an
 
 publishDate: 'Jun 01 2017'
 isFeatured: true
+badges: ['Matlab', 'Simulink', 'Raspberry Pi', 'Python']
 seo:
   image:
     src: '/project-2.jpg'

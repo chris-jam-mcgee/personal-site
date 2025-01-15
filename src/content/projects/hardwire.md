@@ -4,6 +4,7 @@ description: Built an internal shipping web app to track orders using Python, Fl
 
 publishDate: 'Sep 01 2018'
 isFeatured: true
+badges: ['Python', 'Raspbery Pi', 'Arduino', 'Flask', 'SQL Server']
 seo:
   image:
     src: '/project-4.jpg'

@@ -4,15 +4,16 @@ description: Led the core services and infrastructure team, managing both Softwa
 
 publishDate: 'Sep 01 2023'
 isFeatured: true
+badges: ['Kubernetes', 'AWS', 'ArgoCD', 'Python', 'Static sites', 'Github Actions']
 seo:
   image:
-    src: 'project-7.jpg'
+    src: 'dust_shield_alone_logo_r.png'
 ---
 
-![Project preview](/project-7.jpg)
+![Project preview](/dust_shield_alone_logo_r.png)
 
-**Project Overview:**
-CryptoTrader Dashboard is a comprehensive web application designed to empower cryptocurrency enthusiasts with tools to manage and optimize their digital asset portfolios. By providing real-time market data, analytics, and portfolio tracking, the dashboard offers a seamless experience for users to monitor and enhance their cryptocurrency investments.
+**Overview:**
+[DUST Identity](https://www.dustidentity.com) is a unique supply chain security company. The company offers DUST, or Diamond Unclonable Security Tags, physical markings contructed from diamond dust suspended in a variety of high performance materials. These tags can be used to link a physical object to its digital records.
 
 ## Objectives
 

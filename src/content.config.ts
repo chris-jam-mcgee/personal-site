@@ -26,6 +26,7 @@ const projects = defineCollection({
     schema: z.object({
         title: z.string(),
         description: z.string().optional(),
+        badges: z.array(z.string()).optional(),
         publishDate: z.coerce.date(),
         isFeatured: z.boolean().default(false),
         seo: seoSchema.optional()

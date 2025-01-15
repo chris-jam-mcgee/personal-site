@@ -4,6 +4,7 @@ description: Worked on location in Phnom Penh, Cambodia with Golden West Humanit
 
 publishDate: 'Jun 01 2018'
 isFeatured: true
+badges: ['Arduino', 'C', 'Matlab', 'Simulink']
 seo:
   image:
     src: '/project-3.jpg'

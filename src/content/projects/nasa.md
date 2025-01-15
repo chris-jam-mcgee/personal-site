@@ -4,6 +4,7 @@ description: Optimized the Parker Solar Probe’s solar array MATLAB thermal mod
 
 publishDate: 'Jun 01 2016'
 isFeatured: true
+badges: ['Matlab', 'Simulink', 'Raspberry Pi', 'Python']
 seo:
   image:
     src: '/project-1.jpg'

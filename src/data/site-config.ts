@@ -24,9 +24,6 @@ export type Subscribe = {
 
 export type SiteConfig = {
     logo?: Image;
-    title: string;
-    subtitle?: string;
-    description: string;
     image?: Image;
     headerNavLinks?: Link[];
     footerNavLinks?: Link[];
@@ -37,9 +34,6 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante ',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -56,22 +50,12 @@ const siteConfig: SiteConfig = {
     ],
     footerNavLinks: [
         {
-            text: 'About',
-            href: '/about'
+            text: 'Home',
+            href: '/'
         },
         {
-            text: 'Contact',
-            href: '/contact'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
-    ],
-    socialLinks: [
-        {
-            text: 'LinkedIn',
-            href: 'https://www.linkedin.com/in/christopher-mcgee-29044ba8/'
+            text: 'Experience',
+            href: '/experience'
         }
     ],
     hero: {
