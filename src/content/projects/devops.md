@@ -4,7 +4,7 @@ description: Automated feature deployments for AWS stacks to unblock QA and UX d
 
 publishDate: 'Jun 01 2021'
 isFeatured: true
-badges: ['AWS', 'Python', 'CircleCI']
+badges: ['AWS', 'Python', 'CircleCI', 'RedHat']
 seo:
   image:
     src: '/dust_shield_alone_logo_r.png'
