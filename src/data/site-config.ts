@@ -42,35 +42,21 @@ const siteConfig: SiteConfig = {
         {
             text: 'Home',
             href: '/'
-        },
-        {
-            text: 'Experience',
-            href: '/experience'
         }
     ],
     footerNavLinks: [
         {
             text: 'Home',
             href: '/'
-        },
-        {
-            text: 'Experience',
-            href: '/experience'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Chris McGee**, a DevOps Engineer, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: 'Hi, my name is Chris McGee',
+        text: "I'm **Chris McGee**, a DevOps Engineer. Feel free to drop me an email at [chris.jam.mcgee@gmail.com](mailto:chris.jam.mcgee@gmail.com), Find me on [LinkedIn](https://www.linkedin.com/in/christopher-mcgee-29044ba8/).",
         image: {
             src: '/black_and_white_profile.jpeg',
             alt: 'A person sitting at a desk in front of a computer'
-        },
-        actions: [
-            {
-                text: 'Get in Touch',
-                href: '/contact'
-            }
-        ]
+        }
     },
     subscribe: {
         title: 'Subscribe to Dante Newsletter',

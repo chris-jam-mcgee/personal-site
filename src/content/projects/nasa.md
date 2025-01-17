@@ -1,10 +1,12 @@
 ---
-title: 'Thermal Engineering Intern - NASA'
-description: Optimized the Parker Solar Probe’s solar array MATLAB thermal model, decreasing runtime by a factor of 200. Designed and executed tests to qualify, record, and present thermostat performance, saving $5,000 by allowing the reuse of equipment that lacked documentation.
+title: Thermal Engineering Intern - NASA
+duration: Jun 2016 - Aug 2016
+description: 'Optimized the Parker Solar Probe’s solar array MATLAB thermal model, decreasing runtime by a factor of 200.
+  Designed and executed tests to qualify, record, and present thermostat performance, saving $5,000 by allowing the reuse of equipment that lacked documentation.'
 
 publishDate: 'Jun 01 2016'
 isFeatured: true
-badges: ['Matlab', 'Simulink', 'Raspberry Pi', 'Python']
+badges: ['Python', 'Matlab', 'Raspberry Pi', 'Simulink']
 seo:
   image:
     src: '/project-1.jpg'

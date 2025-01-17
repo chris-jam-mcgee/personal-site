@@ -1,10 +1,14 @@
 ---
 title: Senior Engineering Manager - DUST Identity
-description: Led the core services and infrastructure team, managing both Software Engineering & DevOps.  Coordinated third party audits, keeping accurate documentation of system architectures and inventory. Managed IT contractors and maintained security and accessibility of internal networking hardware and servers. Interfaced with executive leadership to translate business goals into developer objectives and contextualize the long-term DevOps road map.
+duration: Sep 2023 - Present
+description: 'Led the core services and infrastructure team, managing both Software Engineering & DevOps. 
+Coordinated third party audits, keeping accurate documentation of system architectures and inventory.  
+Managed IT contractors and maintained security and accessibility of internal networking hardware and servers. 
+Interfaced with executive leadership to translate business goals into developer objectives and contextualize the long-term DevOps road map.'
 
 publishDate: 'Sep 01 2023'
 isFeatured: true
-badges: ['Kubernetes', 'AWS', 'ArgoCD', 'Python', 'Static sites', 'Github Actions']
+badges: ['ArgoCD','AWS','Github Actions','Kubernetes', 'Python', 'Static sites', ]
 seo:
   image:
     src: 'dust_shield_alone_logo_r.png'
@@ -58,5 +62,3 @@ seo:
 ## Outcome
 
 CryptoTrader Dashboard has become a trusted companion for cryptocurrency investors, offering a consolidated and user-friendly platform for managing their portfolios. The robust analytics, real-time market data, and risk management tools empower users to make informed decisions and navigate the dynamic world of cryptocurrency with confidence.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).

@@ -1,10 +1,15 @@
 ---
-title: 'Web Programmer Analyst - NRG Energy'
-description: Managed CI/CD pipeline across AWS and Azure clouds. Authored infrastructure-as-code in Ansible for deploying and managing AWS resources. Implemented a data-driven product engine using Django, Postgres, AWS Elastic Beanstalk, and AWS SQS Migrated legacy databases to AWS S3 for query with AWS Athena to lower costs and preserve auditability. Enhanced local Docker images to run servers, database migrations, linting and unit tests Implemented a standard caching structure for daily pricing runs to avoid unnecessary API calls. Standardized onboarding; capturing Docker, WSL, Git, Jira, and Python team best practices
+title: Web Programmer Analyst - NRG Energy
+duration: Sep 2019 - Jun 2021
+description: 'Managed CI/CD pipeline across AWS and Azure clouds.
+Authored infrastructure-as-code in Ansible for deploying and managing AWS resources.
+Implemented a data-driven product engine using Django, Postgres, AWS Elastic Beanstalk, and AWS SQS Migrated legacy databases to AWS S3 for query with AWS Athena to lower costs and preserve auditability.
+Enhanced local Docker images to run servers, database migrations, linting and unit tests Implemented a standard caching structure for daily pricing runs to avoid unnecessary API calls.
+Standardized onboarding; capturing Docker, WSL, Git, Jira, and Python team best practices'
 
 publishDate: 'Sep 01 2019'
 isFeatured: true
-badges: ['Python', 'Django', 'Jenkins', 'AWS', 'Ansible']
+badges: [ 'Ansible','AWS','Django','Jenkins','Python']
 seo:
   image:
     src: '/nrg.png'
@@ -58,5 +63,3 @@ seo:
 ## Outcome
 
 PixelPerfect Art Gallery has successfully created a digital haven for pixel art enthusiasts, providing a secure and engaging platform for artists and collectors alike. The integration of blockchain technology ensures transparency and authenticity in the world of digital art, fostering a vibrant community that appreciates the uniqueness and creativity of pixel art NFTs.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).

@@ -1,10 +1,19 @@
 ---
 title: Senior DevOps Engieer - DUST Identity
-description: Automated feature deployments for AWS stacks to unblock QA and UX during migration to Kubernetes. Translated legacy architecture from AWS ECS into Kubernetes. Adapted containerized architecture to work on an air gapped alternative to DUST Identity’s cloud offering. Increased testing and deployment speeds with differential deployments, caching, and test parallelization. Migrated all access control from password and key auth to SSO across databases, Kubernetes, and AWS. Built tooling to securely discover and connect to databases in development and production automatically. Executed production deployments, smoke testing, communication, and troubleshooting. Performed customer demos and directly interfaced with both technical managers and users. Automated smoke testing of web applications with Selenium and Pytest. Diagnosed resource utilization issues in Postgres databases to improve ORM efficiency.
+duration: Jun 2021 - Sep 2023
+description: 'Automated feature deployments for AWS stacks to unblock QA and UX during migration to Kubernetes.
+Translated legacy architecture from AWS ECS into Kubernetes. Adapted containerized architecture to work on an air gapped alternative to DUST Identity’s cloud offering.
+Increased testing and deployment speeds with differential deployments, caching, and test parallelization.
+Migrated all access control from password and key auth to SSO across databases, Kubernetes, and AWS.
+Built tooling to securely discover and connect to databases in development and production automatically.
+Executed production deployments, smoke testing, communication, and troubleshooting.
+Performed customer demos and directly interfaced with both technical managers and users.
+Automated smoke testing of web applications with Selenium and Pytest.
+Diagnosed resource utilization issues in Postgres databases to improve ORM efficiency.'
 
 publishDate: 'Jun 01 2021'
 isFeatured: true
-badges: ['AWS', 'Python', 'CircleCI', 'RedHat']
+badges: ['AWS', 'CircleCI', 'Postgres','Python', 'RedHat']
 seo:
   image:
     src: '/dust_shield_alone_logo_r.png'
@@ -58,5 +67,3 @@ seo:
 ## Outcome
 
 FitQuest has transformed the fitness landscape by merging physical activity with immersive gaming experiences. Users not only enjoy staying active but also find motivation in the storyline and challenges, creating a unique and entertaining approach to maintaining a healthy lifestyle.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).

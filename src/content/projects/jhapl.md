@@ -1,10 +1,11 @@
 ---
-title: 'Structural Engineering Intern - Johns Hopkins Applied Physics Lab'
+title: Structural Engineering Intern - Johns Hopkins Applied Physics Lab
+duration: Jun 2017 - Apr 2018
 description: Supported the structural and thermal efforts for the Solar Probe and Europa programs. Prototyped thermal vacuum compatible infrared and visible light camera using Raspberry Pi. Led mechanical assembly and testing of measurement instruments for internal research projects
 
 publishDate: 'Jun 01 2017'
 isFeatured: true
-badges: ['Matlab', 'Simulink', 'Raspberry Pi', 'Python']
+badges: ['Matlab', 'Python', 'Raspberry Pi', 'Simulink']
 seo:
   image:
     src: '/project-2.jpg'
@@ -12,8 +13,6 @@ seo:
 ---
 
 ![Project preview](/project-2.jpg)
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
 **Project Overview:**
 TimeWarp Travel Agency aims to redefine the travel experience by offering an innovative and immersive online platform that explores the concept of time travel. The website combines cutting-edge technology with captivating storytelling to provide users with a unique journey through time.
@@ -62,5 +61,3 @@ TimeWarp Travel Agency aims to redefine the travel experience by offering an inn
 ## Outcome
 
 The TimeWarp Travel Agency Website successfully brings the concept of time travel to life, providing users with a captivating and educational experience. The website not only serves as a travel planning tool but also as an interactive platform that encourages users to explore and appreciate the rich tapestry of human history.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).

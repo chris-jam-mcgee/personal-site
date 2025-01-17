@@ -1,6 +1,10 @@
 ---
-title: 'Explosive Ordnance Disposal Roboticist - IRES Cambodia'
-description: Worked on location in Phnom Penh, Cambodia with Golden West Humanitarian Foundation. Implemented PID control for nodding LIDAR systems on EOD robots. Prototyped sun tracking solar panel array using OpenCV Python on Raspberry Pi, controlled panels via Arduino and linear actuator receiving inputs from Matlab/Simulink inverse kinematic models. Taught microcontroller fundamentals and construction of sensors from basic electrical components to enable Cambodian grad students to operate efficiently and overcome supply chain constraints.
+title: Explosive Ordnance Disposal Roboticist - IRES Cambodia
+duration: Jun 2018 - Aug 2018
+description: 'Worked on location in Phnom Penh, Cambodia with Golden West Humanitarian Foundation.
+Implemented PID control for nodding LIDAR systems on EOD robots.
+Prototyped sun tracking solar panel array using OpenCV Python on Raspberry Pi, controlled panels via Arduino and linear actuator receiving inputs from Matlab/Simulink inverse kinematic models.
+Taught microcontroller fundamentals and construction of sensors from basic electrical components to enable Cambodian grad students to operate efficiently and overcome supply chain constraints.'
 
 publishDate: 'Jun 01 2018'
 isFeatured: true

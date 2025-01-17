@@ -5,24 +5,38 @@ import ArrowRight from '../icons/ArrowRight.astro';
 type Props = { project: CollectionEntry<'projects'>; class?: string; headingLevel?: 'h2' | 'h3' };
 
 const { project, class: className, headingLevel = 'h2' } = Astro.props;
-const { title, description, badges } = project.data;
+const { title, description, duration, badges } = project.data;
 const TitleTag = headingLevel;
 ---
 
-<a class:list={['flex justify-between items-start gap-8 group', className]} href={`/experience/${project.id}/`}>
-    <div class="grow">
-        <TitleTag
-            class="text-xl leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-2xl"
-        >
-            {title}
-        </TitleTag>
-        {description && <div class="mt-1 text-sm leading-normal">{description}</div>}
+<a class:list={['flex justify-center items-start gap-8 group', className]} href={`/experience/${project.id}/`}>
+    <div class="whitespace-pre grow shrink text-right text-wrap"><span>{duration}</span></div>
+
+    <div class="hover:bg-gray-500 rounded">
+        <div class="grow gap-4 flex flex-col items-center max-w-prose w-[65ch]">
+            <div>
+                <TitleTag
+                    class="text-xl leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-2xl text-wrap"
+                >
+                    {title}
+                </TitleTag>
+                {
+                    description && (
+                        <div class="mt-1 text-sm leading-normal">
+                            {description.match(/[^.!?]+[.!?]/g)?.map((sentence, index) => (
+                                <p class="mb-2">{sentence.trim()}</p>
+                            ))}
+                        </div>
+                    )
+                }
+            </div>
+            <div class="flex mb-8 gap-4">
+                {(badges ?? ['empty']).map((badge) => <div class="rounded-full border border-white px-2 py-1"> {badge}</div>)}
+            </div>
+        </div>
     </div>
-    <div class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center sm:shrink-0">
+
+    <div class="grow hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center sm:shrink-0">
         Learn More <ArrowRight class="fill-current w-4 h-4" />
     </div>
 </a>
-
-<div style="display: flex; gap: 40px; justify-content: center;" class="mb-8">
-    {(badges ?? ['empty']).map((badge) => <div class="rounded-full border border-white px-2 py-1"> {badge}</div>)}
-</div>
