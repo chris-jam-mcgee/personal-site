@@ -15,7 +15,7 @@ const hero = siteConfig.hero;
                 </a>
             )}
             {hero.image?.src && (
-                <figure class="w-4/5">
+                <figure class="w-4/5 flex flex-col items-center">
                     <img class="rounded-full border-2 border-main" src={hero.image.src} loading="lazy" decoding="async" alt={hero.image.alt || ''} />
                     {hero.image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{hero.image.caption}</figcaption>}
                 </figure>
