@@ -12,24 +12,7 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
 ---
 
 <BaseLayout description={siteConfig.description} image={siteConfig.image}>
-    <div class="w-full grid grid-cols-5 gap-8">
-        <div class="h-full">
-            <div class="sticky top-0">
-                <Hero />
-            </div>
-        </div>
-
-        <div class="col-span-3">
-            {
-                featuredProjects?.length > 0 && (
-                    <div class="mb-16 sm:mb-24">
-                        <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Experience</h2>
-                        {featuredProjects.map((project) => (
-                            <ProjectPreview project={project} class="mb-10 sm:mb-12" headingLevel="h3" />
-                        ))}
-                    </div>
-                )
-            }
-        </div>
+    <div class="mb-16 sm:mb-24 flex flex-col items-center">
+        {featuredProjects.map((project) => <ProjectPreview project={project} class="mb-10 sm:mb-12" headingLevel="h3" />)}
     </div>
 </BaseLayout>

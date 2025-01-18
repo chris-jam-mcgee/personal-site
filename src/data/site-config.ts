@@ -38,20 +38,8 @@ const siteConfig: SiteConfig = {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
     },
-    headerNavLinks: [
-        {
-            text: 'Home',
-            href: '/'
-        }
-    ],
-    footerNavLinks: [
-        {
-            text: 'Home',
-            href: '/'
-        }
-    ],
     hero: {
-        title: 'Hi, my name is Chris McGee',
+        title: "Hi, I'm Chris",
         text: "I'm **Chris McGee**, a DevOps Engineer. Feel free to drop me an email at [chris.jam.mcgee@gmail.com](mailto:chris.jam.mcgee@gmail.com), Find me on [LinkedIn](https://www.linkedin.com/in/christopher-mcgee-29044ba8/).",
         image: {
             src: '/black_and_white_profile.jpeg',

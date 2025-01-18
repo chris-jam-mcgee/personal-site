@@ -9,11 +9,11 @@ isFeatured: true
 badges: ['Python', 'Matlab', 'Raspberry Pi', 'Simulink']
 seo:
   image:
-    src: '/project-1.jpg'
+    src: '/psp.jpg'
     alt: Project preview
 ---
 
-![Project preview](/project-1.jpg)
+![Project preview](/psp.jpg)
 
 **Project Overview:**
 The NASA internship was focused on the thermal engineering efforts to protect and regulate the Parker Solar Probe(PSP). The launch required was a plantenary launch, meaning that it required the planet to be in the correct position for the launch. Given that this kind of schedule can not tolerate slip of any kind, it provided me with the opportunity to particiate accross teams on a variety of projects.
@@ -28,7 +28,7 @@ The NASA internship was focused on the thermal engineering efforts to protect an
 
 Like many mechanical engineering teams, the PSP thermal engineering team made use of Matlab and Simulink, in addition to Thermal Desktop. My work was primarily with the matlab models that drove the simulations.
 
-## Outcome
+## Outcomes
 
 1. Optimize the thermal Modeling code
 
@@ -42,3 +42,7 @@ A quick search into Matlab's ode solvers reveled that the original author of the
 The art of making Multi Layer Aluminized kaptop blanketing is still largely a manual process. At the time that I was at Johns Hopkins, there only two who worked on this aspect of space exploration. In order to avoid waiting for finished parts to come to their workshop, I modeled the louvers for the PSP. Using Solidworks, I laser cut mocks and made sure they would function as substitues that could be blanketed ahead of time. The louvers would be used to vent heat as the PSP got increasingly close to the sun.
 
 3. Assist the Thermal Vacuum lab with any and all testing to avoid schedule slip
+
+The thermal vacuum testing chambers at Johns Hopkins Applied Physics lab where in demand during the prep for the PSP launch. I spent several weeks working late night shifts starting around 11:00 PM and running until 2:00 AM or 3:00 AM. I spent the majority of my time testing frangibolts, a brand of bolt made with [nitinol](https://en.wikipedia.org/wiki/Nickel_titanium). These bolts could be heated up with resistance heaters in order to break them on command. They were used to fasten the solar pannels to the body of the satellite during launch. They were extemely reliable, but there was always the risk that some of the heaters failed to turn off. To make sure this wouldn't be an issue, they were tested exhaustively in a chamber with a TQCM (Tempereature controlled Quartz Crystal Microbalance).
+
+Working with one of the structural engineers who was in charge of the Solar panel deployment lead to my next engagement with Johns Hokpins, this time working on the structural team.

@@ -4,13 +4,14 @@ import BaseHead, { type Props as HeadProps } from '../components/BaseHead.astro'
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import Nav from '../components/Nav.astro';
+import Hero from '../components/Hero.astro';
+import ThemeToggle from '../components/ThemeToggle.astro';
 
 export type Props = HeadProps & { showHeader?: boolean };
 
 const { showHeader = true, ...head } = Astro.props;
 ---
 
-<!doctype html>
 <html lang="en" class="antialiased break-words">
     <head>
         <BaseHead {...head} />
@@ -22,11 +23,22 @@ const { showHeader = true, ...head } = Astro.props;
         <ClientRouter />
     </head>
     <body class="bg-main text-main">
-        <div class="flex flex-col min-h-screen px-4 md:px-8">
-            <Nav />
-            {showHeader && <Header />}
-            <main class="grow w-full mx-auto">
-                <slot />
+        <div class="flex flex-col min-h-screen px-4 md:px-8 relative">
+            <div class="absolute right-0 top-0 z-10 p-8">
+                <ThemeToggle />
+            </div>
+            <main class="grow w-full mx-auto grid grid-cols-5 gap-8 px-8">
+                <div class="h-full">
+                    <div class="sticky top-0 py-8">
+                        <Hero />
+                    </div>
+                </div>
+
+                <div class="py-8 col-span-3">
+                    <slot />
+                </div>
+
+                <div></div>
             </main>
             <Footer />
         </div>
