@@ -53,9 +53,9 @@ const { showHeader = true, ...head } = Astro.props;
                             <ThemeToggle />
                         </div>
                         <div class="relative w-full">
-                            <Image src={smaug} alt="A scary dragon" class="absolute" />
-                            <Image src={mountain} alt="A pretty mountain" class="block dark:hidden" />
-                            <Image src={mountainDark} alt="A pretty mountain" class="hidden dark:block" />
+                            <Image src={smaug} alt="A scary dragon" class="absolute inset-0" />
+                            <Image src={mountain} alt="A pretty mountain" class="block visible dark:invisible" />
+                            <Image src={mountainDark} alt="A pretty mountain" class="invisible dark:visible z-10 absolute inset-0" />
                         </div>
                     </div>
                 </div>
