@@ -8,6 +8,10 @@ import Nav from '../components/Nav.astro';
 import Hero from '../components/Hero.astro';
 import ThemeToggle from '../components/ThemeToggle.astro';
 import { sortItemsByDateDesc } from '../utils/data-utils';
+import { Image } from 'astro:assets';
+import mountain from './mountain-light.png';
+import mountainDark from './mountain-dark.png';
+import smaug from './smaug.png';
 
 export type Props = HeadProps & { showHeader?: boolean };
 
@@ -43,9 +47,16 @@ const { showHeader = true, ...head } = Astro.props;
                     <slot />
                 </div>
 
-                <div class="h-full flex flex-col items-end py-8">
-                    <div class="sticky top-0 py-8 z-10">
-                        <ThemeToggle />
+                <div class="h-full">
+                    <div class="sticky top-0 py-8 h-screen flex flex-col justify-between items-stretch">
+                        <div class="flex flex-row justify-end">
+                            <ThemeToggle />
+                        </div>
+                        <div class="relative w-full">
+                            <Image src={smaug} alt="A scary dragon" class="absolute" />
+                            <Image src={mountain} alt="A pretty mountain" class="block dark:hidden" />
+                            <Image src={mountainDark} alt="A pretty mountain" class="hidden dark:block" />
+                        </div>
                     </div>
                 </div>
             </main>
