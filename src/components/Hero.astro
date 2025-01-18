@@ -16,7 +16,7 @@ const hero = siteConfig.hero;
             )}
             {hero.image?.src && (
                 <figure class="w-4/5">
-                    <img class="rounded-full border-2 border-black" src={hero.image.src} loading="lazy" decoding="async" alt={hero.image.alt || ''} />
+                    <img class="rounded-full border-2 border-main" src={hero.image.src} loading="lazy" decoding="async" alt={hero.image.alt || ''} />
                     {hero.image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{hero.image.caption}</figcaption>}
                 </figure>
             )}
