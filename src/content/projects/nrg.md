@@ -31,9 +31,15 @@ seo:
 ## Objectives
 
 1. Configure a database driven rules engine for evaluating customer pricing
-2. Ensure all Infrasctructure was secure and maintainable
+2. Ensure all Infrastructure was secure and maintainable
 3. Archive Pricing Engine Data to be better prepared for audits
 
-## Outcome
+NRG was my first brush with DevOps practices. There were multiple teams within the company being served by a DevOps team of one. I did my best to partner with them and develop the skills that my team needed to compensate.
 
-1.
+## Outcomes
+
+1. NRG has a large number of customer accounts that need to be on a daily basis. Whether it be to check regulatory compliance, adjust prices, trigger mailed communications, etc, NRG's pricing engine needed to be executed daily. Whether or not the results for a given customer were directly actionable, they were archived. I worked to make the evolution system easier for the business ops side of the organization to operate with. Many business ops team members were very comfortable with SQL, placing the rules for pricing inside a table and assigning them a hierarchical ranking made the process of making business changes self service.
+
+2. There was no unified agreement between the teams in regards to their internal build and testing infrastructure. As a result, Chef, Ansible, AWS CDK, Team City, Jenkins, Azure Pipelines, and AWS codebuild were all in use. I met with the DevOps engineer who was trying to support these disparate efforts and settled on taking ownerships of my team's Jenkins builds, Azure Pipelines, and AWS architecture.
+
+3. As the pricing database continued to scale daily, it became apparent that the business ops team would need an easier means of interrogating the data for auditing purposes. In my first large scale DevOps project, I built out a data pipeline using the AWS database migration service in conjunction with Athena. Data was replicated from the database and stored in S3 in the [parquet file format](https://parquet.apache.org/). This allowed business ops team members to use a query language similar to the SQL they were used to through Athena to query archived data.

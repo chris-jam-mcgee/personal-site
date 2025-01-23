@@ -22,18 +22,19 @@ This NSF funded international research experience for students - IRES - program 
 ## Technology Stack
 
 - Main Robot: Robot Operating System ([ROS](https://www.ros.org/) )
-- Lidar System: C (Arduino)
+- Lidar System: C ([Arduino](https://www.arduino.cc/))
+- Grad Student Work: Python, Linux
 
 ## Objectives
 
-The multi year project had the overall objective of producing an design for an Uneploded Ordnance Disposal robot. Existing offerings could cost tens of thousands of dollars, the goal for ours was to keep it under ten thousand.
+The multi year project had the overall objective of producing an design for an Unexploded Ordnance Disposal robot. Existing offerings could cost tens of thousands of dollars, the goal for ours was to keep it under ten thousand.
 
 One of the main difficulties with this price point was not the motors or body materials, but in navigation and orientation. Cambodia has many areas of dense jungle. This can make GPS navigation untenable. Instead, [visual odometry](https://en.wikipedia.org/wiki/Visual_odometry) is an alternative. We opted for a [LIDAR](https://en.wikipedia.org/wiki/Lidar) based system.
 
-Sophisticated LIDAR systems use multiple beams of light to form full 3-dimensional representations of the spaces they measure, but they are also extremely expensive relative to simple range finders. My work was centered around supporting a team that was attpending to take an inexpensive spinning range finder and move it in a nodding motion to get a full picture.
+Sophisticated LIDAR systems use multiple beams of light to form full 3-dimensional representations of the spaces they measure, but they are also extremely expensive relative to simple range finders. My work was centered around supporting a team that was attempting to take an inexpensive spinning range finder and move it in a nodding motion to get a full picture.
 
 ## Outcomes
 
-An example of one of the nodding LIDAR systems we trialed can be seen in this [blog post](https://irescambodia.com/index.php/2018/07/19/the-lidar-cradle-a-brief-introduction-to-pid-control/). We were successful in getting some prototypes running, but more importatnly, in establishing connections and an undersatanding of the local supply chain. Sourcing basic electronic components proved to be difficult, but with the help of grad students from the Institute of Technology of Cambodia, we tracked down sources for many basic components from resisters and transistors to microcontrollers.
+An example of one of the nodding LIDAR systems we trialed can be seen in this [blog post](https://irescambodia.com/index.php/2018/07/19/the-lidar-cradle-a-brief-introduction-to-pid-control/). We were successful in getting some prototypes running, but more importantly, in establishing connections and an understanding of the local supply chain. Sourcing basic electronic components proved to be difficult, but with the help of grad students from the Institute of Technology of Cambodia, we tracked down sources for many basic components from resisters and transistors to microcontrollers.
 
-I ended up working with two mechanical engineering grad students at the institute on one of their final projects: a solar panel that rested on three linear actuators. We worked through several methods of orienting towards the brightest part of the sky, from the basic photoresister approach all the way to using python and OpenCV to take pictures and detect various parts of the sky. This experience would inform a lot of work I did at my following job at Hardwire LLC.
+I ended up working with two mechanical engineering grad students at the institute on one of their final projects: a solar panel that rested on three linear actuators. We worked through several methods of orienting towards the brightest part of the sky, from the basic photoresister approach all the way to using python and OpenCV to take pictures and detect various parts of the sky. This experience would inform a lot of work I did at my following job at Hardwire LLC, which leveraged OpenCV for a number of quality control applications.

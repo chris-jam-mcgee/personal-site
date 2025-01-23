@@ -16,7 +16,7 @@ seo:
 ![Project preview](/psp.jpg)
 
 **Project Overview:**
-The NASA internship was focused on the thermal engineering efforts to protect and regulate the Parker Solar Probe(PSP). The launch required was a plantenary launch, meaning that it required the planet to be in the correct position for the launch. Given that this kind of schedule can not tolerate slip of any kind, it provided me with the opportunity to particiate accross teams on a variety of projects.
+The NASA internship was focused on the thermal engineering efforts to protect and regulate the Parker Solar Probe ([PSP](https://en.wikipedia.org/wiki/Parker_Solar_Probe)). The project had a strict schedule due to its narrow [Launch window](https://en.wikipedia.org/wiki/Launch_window). This meant that the engineering teams could not tolerate slip of any kind without resulting in a delay of years to the project. This pressure provided me with the opportunity to patriciate across teams on a variety of projects to ensure every detail was fully staffed.
 
 ## Objectives
 
@@ -26,23 +26,25 @@ The NASA internship was focused on the thermal engineering efforts to protect an
 
 ## Technology Stack
 
-Like many mechanical engineering teams, the PSP thermal engineering team made use of Matlab and Simulink, in addition to Thermal Desktop. My work was primarily with the matlab models that drove the simulations.
+Like many mechanical engineering teams, the PSP thermal engineering team made use of Matlab and Simulink, in addition to Thermal Desktop. My work was primarily with the matlab models that drove the simulations tracking the temperature of various parts of the satellite's water cooling loop from the time that it launched all the way to getting within [3.86 million miles of the sun](https://www.google.com/search?q=how+close+will+psp+get+to+the+sun&oq=how+close+will+psp+get+to+the+sun&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRirAtIBCDQxOTBqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8).
 
 ## Outcomes
 
 1. Optimize the thermal Modeling code
 
-The PSP has to strike a balance between power generation and heat absorption. It has two solar panels that deploy post launch to provide power, but as the thermal radiation from the sun increases as the satellite nears its final orbit, the panels can fold back to decrease the surface exposed. A matlab test suite spanning a number of scenarios was developed between the thermal team and the guidance naviagtion and control team. Each test case was taking ~60 seconds, and a full run of all tests could span a few hours.
+The PSP has to strike a balance between power generation and heat absorption. It has two solar panels that deploy post launch to provide power, but as the thermal radiation from the sun increases as the satellite nears its final orbit, the panels can fold back to decrease the surface exposed. A matlab test suite spanning a number of scenarios was developed between the thermal team and the guidance navigation and control team. Each test case was taking ~60 seconds, and a full run of all tests could span a few hours.
 
-I profiled the code and found that the vast majority of the time spent per run was in the execution of Matlab's default ordinary differential equation solver _ode45_.
-A quick search into Matlab's ode solvers reveled that the original author of the test suite had not checked the problems for their [stiffness ](https://en.wikipedia.org/wiki/Stiff_equation). After some experimenation, switching to alternative solvers produced identical results but with a ~2-3 second runtime per test case.
+I profiled the code and found that the vast majority of the time spent per run was in the execution of Matlab's default ordinary differential equation solver [ode45](https://www.mathworks.com/help/matlab/ref/ode45.html).
+A quick search into Matlab's ode solvers reveled that the original author of the test suite had not checked the problems for their [stiffness ](https://en.wikipedia.org/wiki/Stiff_equation). After some experimentation, switching to alternative solvers produced identical results but with a ~2-3 second runtime per test case.
 
 2. Develop model louvers to help prepare radiation blanketing
 
-The art of making Multi Layer Aluminized kaptop blanketing is still largely a manual process. At the time that I was at Johns Hopkins, there only two who worked on this aspect of space exploration. In order to avoid waiting for finished parts to come to their workshop, I modeled the louvers for the PSP. Using Solidworks, I laser cut mocks and made sure they would function as substitues that could be blanketed ahead of time. The louvers would be used to vent heat as the PSP got increasingly close to the sun.
+The art of making Multi Layer Aluminized kapton blanketing is still largely a manual process. At the time that I was at Johns Hopkins, there only two who worked on this aspect of space exploration. In order to avoid waiting for finished parts to come to their workshop, I modeled the louvers for the PSP. Using Solidworks, I laser cut mocks and made sure they would function as substitutes that could be blanketed ahead of time. The louvers would be used to vent heat as the PSP got increasingly close to the sun.
 
 3. Assist the Thermal Vacuum lab with any and all testing to avoid schedule slip
 
-The thermal vacuum testing chambers at Johns Hopkins Applied Physics lab where in demand during the prep for the PSP launch. I spent several weeks working late night shifts starting around 11:00 PM and running until 2:00 AM or 3:00 AM. I spent the majority of my time testing frangibolts, a brand of bolt made with [nitinol](https://en.wikipedia.org/wiki/Nickel_titanium). These bolts could be heated up with resistance heaters in order to break them on command. They were used to fasten the solar pannels to the body of the satellite during launch. They were extemely reliable, but there was always the risk that some of the heaters failed to turn off. To make sure this wouldn't be an issue, they were tested exhaustively in a chamber with a TQCM (Tempereature controlled Quartz Crystal Microbalance).
+The thermal vacuum testing chambers at Johns Hopkins Applied Physics lab where in demand during the prep for the PSP launch. I spent several weeks working late night shifts starting around 11:00 PM and running until 2:00 AM or 3:00 AM. I spent the majority of my time testing frangibolts, a brand of bolt made with [nitinol](https://en.wikipedia.org/wiki/Nickel_titanium). These bolts could be heated up with resistance heaters in order to break them on command. They were used to fasten the solar panels to the body of the satellite during launch. They were extremely reliable, but there was always the risk that some of the heaters failed to turn off. To make sure this wouldn't be an issue, they were tested exhaustively in a chamber with a TQCM (Temperature controlled Quartz Crystal Microbalance).
 
-Working with one of the structural engineers who was in charge of the Solar panel deployment lead to my next engagement with Johns Hokpins, this time working on the structural team.
+Working with one of the structural engineers who was in charge of the Solar panel deployment lead to my next engagement with Johns Hopkins, this time working on the structural team.
+
+Overall, being exposed to the rigor of the engineering infrastructure around a multibillion dollar satellite project prepared me well for future work. I was exposed to high tolerance machining, clean room best practices, soldering, the nuances of test procedure writing, streamlined inter-team and intra-team communication, and myriad other aspects of the profession that are best demonstrated practically. I was happy to return the following year to work for the structural engineers and branch out.
