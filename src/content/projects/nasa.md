@@ -16,7 +16,9 @@ seo:
 ![Project preview](/psp.jpg)
 
 **Project Overview:**
-The NASA internship was focused on the thermal engineering efforts to protect and regulate the Parker Solar Probe ([PSP](https://en.wikipedia.org/wiki/Parker_Solar_Probe)). The project had a strict schedule due to its narrow [Launch window](https://en.wikipedia.org/wiki/Launch_window). This meant that the engineering teams could not tolerate slip of any kind without resulting in a delay of years to the project. This pressure provided me with the opportunity to patriciate across teams on a variety of projects to ensure every detail was fully staffed.
+The Parker Solar Probe ([PSP](https://en.wikipedia.org/wiki/Parker_Solar_Probe)) made the [closest approach to the sun](<(https://www.google.com/search?q=how+close+will+psp+get+to+the+sun&oq=how+close+will+psp+get+to+the+sun&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRirAtIBCDQxOTBqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8)>) of any satellite mission and had a peak speed [faster than any other human made object](<(https://science.nasa.gov/science-research/heliophysics/nasas-parker-solar-probe-makes-history-with-closest-pass-to-sun/#:~:text=Breaking%20its%20previous%20record%20by,made%20object%20has%20ever%20moved.)>) in history. My NASA internship focused on the thermal engineering efforts to protect and regulate the core systems.
+
+The engineering teams could not tolerate schedule slip of any kind without risking a missed [launch window](https://en.wikipedia.org/wiki/Launch_window), delaying the mission by years. This pressure provided me with the opportunity to participate across teams on a variety of projects, giving me an thorough introduction to systems engineering and cross team coordination.
 
 ## Objectives
 
@@ -26,7 +28,7 @@ The NASA internship was focused on the thermal engineering efforts to protect an
 
 ## Technology Stack
 
-Like many mechanical engineering teams, the PSP thermal engineering team made use of Matlab and Simulink, in addition to Thermal Desktop. My work was primarily with the matlab models that drove the simulations tracking the temperature of various parts of the satellite's water cooling loop from the time that it launched all the way to getting within [3.86 million miles of the sun](https://www.google.com/search?q=how+close+will+psp+get+to+the+sun&oq=how+close+will+psp+get+to+the+sun&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRirAtIBCDQxOTBqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8).
+Like many mechanical engineering teams, the PSP thermal engineering team made use of Matlab and Simulink, in addition to Thermal Desktop. My work was primarily with the matlab models that drove the simulations tracking the temperature of various parts of the satellite's water cooling loop from the time that it launched up until its final approach.
 
 ## Outcomes
 
