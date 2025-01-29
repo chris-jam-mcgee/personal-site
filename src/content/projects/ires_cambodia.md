@@ -17,7 +17,7 @@ seo:
 ![Project preview](/ires_cambodia.jpg)
 
 **Project Overview:**
-This NSF funded international research experience for students - IRES - program focuses on using mechatronics and robotics in the field of humanitarian mine-action and explosive ordnance disposal. I was part of the 2018 team that spent 10 weeks in Phnom Penh, Cambodia. Learn more at [IRES Cambodia](https://irescambodia.com/).
+This NSF funded international research experience for students - [IRES](https://new.nsf.gov/funding/opportunities/ires-international-research-experiences-students) - program focuses providing U.S. undergraduate and graduate students with research opportunities abroad.The project that I was involved in was focused on using mechatronics and robotics in the field of humanitarian mine-action and explosive ordnance disposal. I was part of the 2018 team that spent 10 weeks in Phnom Penh, Cambodia. Learn more at [IRES Cambodia](https://irescambodia.com/).
 
 ## Technology Stack
 
@@ -27,14 +27,14 @@ This NSF funded international research experience for students - IRES - program 
 
 ## Objectives
 
-The multi year project had the overall objective of producing an design for an Unexploded Ordnance Disposal robot. Existing offerings could cost tens of thousands of dollars, the goal for ours was to keep it under ten thousand.
+The multi year project had the overall objective of producing a design for an Unexploded Ordnance Disposal robot. Existing offerings could cost tens of thousands of dollars, the goal for ours was to keep it under ten thousand.
 
-One of the main difficulties with this price point was not the motors or body materials, but in navigation and orientation. Cambodia has many areas of dense jungle. This can make GPS navigation untenable. Instead, [visual odometry](https://en.wikipedia.org/wiki/Visual_odometry) is an alternative. We opted for a [LIDAR](https://en.wikipedia.org/wiki/Lidar) based system.
+One of the main difficulties with this price point was not the motors or body materials, but in navigation and orientation. Cambodia has many areas of dense jungle, making GPS navigation untenable at times. Instead, [visual odometry](https://en.wikipedia.org/wiki/Visual_odometry) is an alternative. We opted for a [LIDAR](https://en.wikipedia.org/wiki/Lidar) based system and endeavored to keep it as affordable as possible.
 
 Sophisticated LIDAR systems use multiple beams of light to form full 3-dimensional representations of the spaces they measure, but they are also extremely expensive relative to simple range finders. My work was centered around supporting a team that was attempting to take an inexpensive spinning range finder and move it in a nodding motion to get a full picture.
 
 ## Outcomes
 
-An example of one of the nodding LIDAR systems we trialed can be seen in this [blog post](https://irescambodia.com/index.php/2018/07/19/the-lidar-cradle-a-brief-introduction-to-pid-control/). We were successful in getting some prototypes running, but more importantly, in establishing connections and an understanding of the local supply chain. Sourcing basic electronic components proved to be difficult, but with the help of grad students from the Institute of Technology of Cambodia, we tracked down sources for many basic components from resisters and transistors to microcontrollers.
+An example of one of the nodding LIDAR systems we trialed can be seen in this [blog post](https://irescambodia.com/index.php/2018/07/19/the-lidar-cradle-a-brief-introduction-to-pid-control/). We were successful in getting some prototypes running, but more importantly, in establishing connections and an understanding of the local supply chain. Sourcing basic electronic components proved to be difficult, but with the help of grad students from the Institute of Technology of Cambodia, we tracked down sources for most of what we needed.
 
 I ended up working with two mechanical engineering grad students at the institute on one of their final projects: a solar panel that rested on three linear actuators. We worked through several methods of orienting towards the brightest part of the sky, from the basic photoresister approach all the way to using python and OpenCV to take pictures and detect various parts of the sky. This experience would inform a lot of work I did at my following job at Hardwire LLC, which leveraged OpenCV for a number of quality control applications.

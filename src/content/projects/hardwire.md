@@ -18,7 +18,7 @@ seo:
 ![Project preview](/hardwire.webp)
 
 **Project Overview:**
-[Hardwire LLC](https://hardwirellc.com/) is a Maryland based company that designs and manufactures a variety of armour solutions from ceramic plates and soft inserts armour to bridge armour.
+[Hardwire LLC](https://hardwirellc.com/) is a Maryland based company that designs and manufactures a variety of armour solutions including ceramic backed plates, soft inserts armour, and [bridge armour](https://hardwirellc.com/pages/infrastructure?srsltid=AfmBOoq2GpkyuIuFrg3CEYG56KHT7MKoZgguEqP5xukAhjc6ODxaWM9M).
 
 ## Technology Stack
 
@@ -29,15 +29,15 @@ seo:
 ## Objectives
 
 1. Develop proof of concept automation for future production lines
-2. Integrate an Internal site to tracking outgoing shipments of product
+2. Integrate an Internal site to tracking outgoing shipments
 3. Outfit thermal presses with thermocouples, graph system state live on an internal site
-4. Develop test machines and instrument worn body armour to
+4. Develop test machines and instrument worn body armour to study effective lifetime
 5. Automate barcode generation and scanning on the factory floor
 6. Develop a means for quality controlling bullet proof windows
 
 ## Outcomes
 
-1. Hardwire made use of a variety of custom built production machines that were driven by Programmable Logic Controllers (PLC). Programming these controllers required prohibitively expensive licenses to propriety software. In order to built and test machine rapidly and get quick feedback on new ideas, I began to make use of Raspberry PI computers and Arduino Microcontrollers. Having lived near a Microcenter for some time, I had a lot of exposure to the inexpensive Inland brand line of microcontroller. I was able to outfit several test machine with Microcontroller driven pneumatic valves that could be used to quickly asses viability without investing the time and money in a polished PLC iteration.
+1. Hardwire made use of a variety of custom built production machines that were driven by Programmable Logic Controllers ([PLC](https://en.wikipedia.org/wiki/PLC)). Programming these controllers required prohibitively expensive licenses to propriety software. In order to build and test machines rapidly and get quick feedback on new ideas, I began to make use of Raspberry PI computers and Arduino Microcontrollers. Having lived near a Microcenter for some time, I had a lot of exposure to the inexpensive Inland brand line of microcontroller. I was able to outfit several test machine with Microcontroller driven pneumatic valves that could be used to quickly asses viability without investing the time and money in a polished PLC iteration.
 
 2. Hardwire made use of an extremely flexible internal manufacturing system that was made with [Delphi](<https://en.wikipedia.org/wiki/Delphi_(software)>). All of the information that was needed on a given topic was in an organized database already, it just needed an easily accessible display. I wrote a simple python webapp that organized and color coded all outgoing shipments within a given time range. The project was small enough to avoid using an ORM, and the styling was done with bootstrap.
 
