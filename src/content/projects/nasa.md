@@ -16,9 +16,9 @@ seo:
 ![Project preview](/psp.jpg)
 
 **Project Overview:**
-The Parker Solar Probe ([PSP](https://en.wikipedia.org/wiki/Parker_Solar_Probe)) made the [closest approach to the sun](<(https://www.google.com/search?q=how+close+will+psp+get+to+the+sun&oq=how+close+will+psp+get+to+the+sun&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRirAtIBCDQxOTBqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8)>) of any satellite mission and had a peak speed [faster than any other human made object](<(https://science.nasa.gov/science-research/heliophysics/nasas-parker-solar-probe-makes-history-with-closest-pass-to-sun/#:~:text=Breaking%20its%20previous%20record%20by,made%20object%20has%20ever%20moved.)>) in history. My NASA internship focused on the thermal engineering efforts to protect and regulate the core systems.
+The Parker Solar Probe ([PSP](https://en.wikipedia.org/wiki/Parker_Solar_Probe)) made the [closest approach to the sun](https://science.nasa.gov/science-research/heliophysics/nasas-parker-solar-probe-makes-history-with-closest-pass-to-sun/#:~:text=Breaking%20its%20previous%20record%20by,made%20object%20has%20ever%20moved.) of any satellite mission and had a peak speed [faster than any other human made object](https://science.nasa.gov/science-research/heliophysics/nasas-parker-solar-probe-makes-history-with-closest-pass-to-sun/#:~:text=Breaking%20its%20previous%20record%20by,made%20object%20has%20ever%20moved.) in history. My NASA internship focused on the thermal engineering efforts to protect and regulate the core systems.
 
-The engineering teams could not tolerate schedule slip of any kind without risking a missed [launch window](https://en.wikipedia.org/wiki/Launch_window), delaying the mission by years. This pressure provided me with the opportunity to participate across teams on a variety of projects, giving me an thorough introduction to systems engineering and cross team coordination.
+The engineering teams could not tolerate schedule slip of any kind without risking a missed [launch window](https://en.wikipedia.org/wiki/Launch_window), delaying the mission by years. This pressure let me participate across teams on a variety of projects, giving me an thorough introduction to systems engineering and cross team coordination.
 
 ## Objectives
 
