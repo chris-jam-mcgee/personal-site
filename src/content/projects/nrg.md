@@ -18,11 +18,11 @@ seo:
 ![Project preview](/nrg.png)
 
 **Overview:**
-[NRG](https://www.nrg.com) is an American energy company. I worked on the pricing team that maintained an engine which would process tens of thousands of customers daily. These responsibilities grew to include all of the team's DevOps needs as our efforts to streamline deployments increased.
+[NRG](https://www.nrg.com) is an American energy company based in Houston, Texas and Princeton, New Jersey. I worked on the pricing team that maintained an engine which would process tens of thousands of customers daily. These responsibilities grew to include all of the team's DevOps needs as our efforts to streamline deployments increased.
 
 ## Technology Stack
 
-- Frontend: Default
+- Frontend: Django
 - Backend: Python, Django,
 - Databases: Oracle DB, Postgres
 - CI/CD: Jenkins, Azure Pipelines, AWS Codebuild
@@ -34,11 +34,11 @@ seo:
 2. Ensure all Infrastructure was secure and maintainable
 3. Archive Pricing Engine Data to be better prepared for audits
 
-NRG was my first brush with DevOps practices. There were multiple teams within the company being served by a DevOps team of one. I did my best to partner with them and develop the skills that my team needed to compensate.
+NRG was my first brush with DevOps practices. There were multiple teams within the company being served by a DevOps team of one.I did my best to partner with them and develop the skills that my team needed to compensate.
 
 ## Outcomes
 
-1. NRG has a large number of customer accounts that need to be on a daily basis. Whether it be to check regulatory compliance, adjust prices, trigger mailed communications, etc, NRG's pricing engine needed to be executed daily. Whether or not the results for a given customer were directly actionable, they were archived. I worked to make the evolution system easier for the business ops side of the organization to operate with. Many business ops team members were very comfortable with SQL, placing the rules for pricing inside a table and assigning them a hierarchical ranking made the process of making business changes self service.
+1. NRG has a large number of customer accounts that need to be evaluated on a daily basis. Whether it be to check regulatory compliance, adjust prices, trigger mailed communications, etc, NRG's pricing engine needed to be executed daily in full. Whether or not the results for a given customer were directly actionable, they were archived. I worked to make the evaluation system easier for the business ops side of the organization to operate upon. Many business ops team members were very comfortable with SQL, so placing the rules for pricing inside a table and assigning them a hierarchical ranking made the process of making business changes self service.
 
 2. There was no unified agreement between the teams in regards to their internal build and testing infrastructure. As a result, Chef, Ansible, AWS CDK, Team City, Jenkins, Azure Pipelines, and AWS codebuild were all in use. I met with the DevOps engineer who was trying to support these disparate efforts and settled on taking ownerships of my team's Jenkins builds, Azure Pipelines, and AWS architecture.
 
