@@ -12,6 +12,7 @@ export type Link = {
 export type Hero = {
     title?: string;
     text?: string;
+    resume?: string;
     image?: Image;
     actions?: Link[];
 };
@@ -41,15 +42,11 @@ const siteConfig: SiteConfig = {
     hero: {
         title: "Hi, I'm Chris",
         text: "I'm **Chris McGee**, a DevOps Engineer. Feel free to drop me an email at [chris.jam.mcgee@gmail.com](mailto:chris.jam.mcgee@gmail.com), Find me on [LinkedIn](https://www.linkedin.com/in/christopher-mcgee-29044ba8/).",
+        resume: '/chris_mcgee_resume.pdf',
         image: {
             src: '/black_and_white_profile.jpeg',
             alt: 'A person sitting at a desk in front of a computer'
         }
-    },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
     },
     projectsPerPage: 8
 };

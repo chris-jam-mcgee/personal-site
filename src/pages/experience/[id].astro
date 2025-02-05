@@ -34,6 +34,11 @@ const projects = (await getCollection('projects')).sort(sortItemsByDateDesc);
             <header class="mb-8">
                 <h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight">{title}</h1>
             </header>
+
+            <div class="block md:hidden mt-1 text-sm leading-normal items-start border border-muted rounded-lg bg-muted hover:bg-accent px-4 py-2">
+                {description.match(/[^.!?]+[.!?]/g)?.map((sentence) => <p class="mb-2 text-start">{sentence.trim()}</p>)}
+            </div>
+
             <div class="max-w-prose prose prose-dante sm:prose-lg flex flex-col items-center text-start">
                 <Content />
             </div>

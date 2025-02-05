@@ -29,7 +29,7 @@ const TitleTag = headingLevel;
             </div>
             {
                 description && (
-                    <div class="mt-1 text-sm leading-normal">
+                    <div class="hidden md:block mt-1 text-sm leading-normal">
                         {description.match(/[^.!?]+[.!?]/g)?.map((sentence) => (
                             <p class="mb-2">{sentence.trim()}</p>
                         ))}
@@ -37,7 +37,7 @@ const TitleTag = headingLevel;
                 )
             }
         </div>
-        <div class="flex flex-wrap gap-4 items-start">
+        <div class="hidden md:flex flex flex-wrap gap-4 items-start">
             {(badges ?? ['empty']).map((badge) => <div class="rounded-full border-2 border-main px-4 py-2 font-semibold"> {badge}</div>)}
         </div>
     </div>

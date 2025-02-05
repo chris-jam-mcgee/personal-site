@@ -3,6 +3,8 @@ import { marked } from 'marked';
 import Button from './Button.astro';
 import siteConfig from '../data/site-config';
 
+import { ArrowDownToLine } from 'lucide-react';
+
 const hero = siteConfig.hero;
 ---
 
@@ -21,6 +23,16 @@ const hero = siteConfig.hero;
                 </figure>
             )}
             {hero.text && <div class="max-w-none prose prose-dante sm:prose-lg max-w-prose" set:html={marked.parse(hero.text)} />}
+
+            <a
+                href={hero.resume}
+                download
+                class="inline-block flex flex-row items-center hover:underline border border-muted rounded-lg px-4 py-2 bg-muted hover:bg-accent active:bg-violet-700"
+            >
+                <span>Download my resume</span>
+                <ArrowDownToLine />
+            </a>
+
             {hero.actions && hero.actions.length > 0 && (
                 <div class="flex flex-wrap gap-4">
                     {hero.actions.map((action) => (
